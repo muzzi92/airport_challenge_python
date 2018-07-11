@@ -5,4 +5,9 @@ class TestAirport(object):
     def test_has_hanger_array(self):
         airport = Airport()
         assert airport.hanger == []
-        
+
+    def test_land_puts_plane_in_hanger(self):
+        airport = Airport()
+        plane = 'plane'
+        airport.land(plane)
+        assert plane in airport.hanger

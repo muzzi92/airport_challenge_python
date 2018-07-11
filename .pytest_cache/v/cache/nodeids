@@ -1,3 +1,6 @@
 [
-  "weather_test.py::TestWeather::()::test_random_returns_stormy_when_int_1"
+  "airport_test.py::TestAirport::()::test_has_hanger_array",
+  "airport_test.py::TestAirport::()::test_land_puts_plane_in_hanger",
+  "airport_test.py::TestAirport::()::test_take_off_removes_from_hanger",
+  "airport_test.py::TestAirport::()::test_does_not_take_off_when_stormy"
 ]

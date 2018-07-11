@@ -11,3 +11,9 @@ class TestAirport(object):
         plane = 'plane'
         airport.land(plane)
         assert plane in airport.hanger
+
+    def test_take_off_removes_from_hanger(self):
+        airport = Airport()
+        plane = 'plane'
+        airport.take_off(plane)
+        assert plane not in airport.hanger
